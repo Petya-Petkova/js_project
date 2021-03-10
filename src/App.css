@@ -1,0 +1,182 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+input,
+select {
+  padding: 16px;
+  font-size: 15px;
+  width: 250px;
+}
+
+.input-container {
+  position: relative;
+  margin: 15px;
+}
+
+.input-container label {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  padding: 0 3px;
+  background-color: white;
+  font-size: 12px;
+  transform: translateY(-50%);
+}
+
+button[type="submit"] {
+  background-color: rgb(16, 179, 24);
+  color: white;
+  border: 0px;
+  padding: 16px;
+  font-size: 20px;
+  width: 270px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(20, 209, 29);
+  cursor: pointer;
+}
+
+.form-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  padding-top: 15px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.search-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  padding: 0 10px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-weight: 700;
+}
+
+.search-container:hover {
+  cursor: pointer;
+  background-color: rgb(172, 230, 56);
+}
+
+.search-container p {
+  margin-left: 9px;
+}
+
+.search-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.movies-container {
+  margin: 35px;
+  padding-bottom: 15px;
+}
+.movie-delete {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+  padding: 5px;
+}
+
+.movie-entity-container img {
+  height: 200px;
+  margin-right: 50px;
+}
+
+.movie-entity-container span {
+  font-weight: 700;
+}
+
+.movie-entity-container {
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(248, 248, 248);
+}
+
+.movie-entity-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-entity-2 {
+  width: 40%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.found-container {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.found-container img {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  height: 55px;
+  transform: translateY(-15px);
+}
+
+.found-container img:hover {
+  cursor: pointer;
+}
+
+.order-style {
+  position: absolute;
+  right: 80px;
+  top: 0;
+  font-size: 12px;
+  width: 100px;
+  padding: 5px;
+}
